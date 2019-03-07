@@ -18,7 +18,7 @@ entity num_3_select is
     
     );
 
-end num_2_case;
+end num_3_select;
 
 architecture Behavioral of num_3_select is
 
