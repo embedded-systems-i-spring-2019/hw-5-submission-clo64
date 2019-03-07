@@ -1,13 +1,13 @@
 --Charles Owen
 --Embbedded Systems
 --HW 5
--- Number 2 Case Statement
+-- Number 4 AND
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 
-entity num_2_case is
+entity num_4_AND is
 
     Port(
     
@@ -16,9 +16,9 @@ entity num_2_case is
     
     );
 
-end num_2_case;
+end num_4_AND;
 
-architecture Behavioral of num_2_case is
+architecture Behavioral of num_4_AND is
 
 begin
 
