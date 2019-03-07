@@ -27,6 +27,7 @@ Big_And: process (and_inputs)
          
          if (and_intputs = "00000000") then and_out <= '0';
          else and_out <= '1';
+         end if;
          
          end process;
 
