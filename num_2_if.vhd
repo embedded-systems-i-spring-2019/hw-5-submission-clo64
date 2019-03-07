@@ -1,13 +1,13 @@
 --Charles Owen
 --Embbedded Systems
 --HW 5
--- Number 2 Case Statement
+-- Number 2 If Statement
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 
-entity num_2_case is
+entity num_2_if is
 
     Port(
     
@@ -18,9 +18,9 @@ entity num_2_case is
     
     );
 
-end num_2_case;
+end num_2_if;
 
-architecture Behavioral of num_2_case is
+architecture Behavioral of num_2_if is
 
 signal ABD   : std_logic_vector(2 downto 0);
 signal and_1 : std_logic;
