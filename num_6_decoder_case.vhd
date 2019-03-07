@@ -22,7 +22,7 @@ architecture Behavioral of num_7_case is
 
 begin
 
-Big_And: process (DEC_in)
+Dec_ac_lo: process (DEC_in)
          begin
          
          case (DEC_in) is
